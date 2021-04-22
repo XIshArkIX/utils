@@ -54,7 +54,7 @@ const findFileByContext = () => {
       const file = path.resolve(dirName, fsDirEnt.name);
 
       if (options.verbose) {
-        console.log(`Scanning ${file.grey}`);
+        console.log(`Scanning ${file}`);
       }
 
       if (fsDirEnt.isDirectory()) {

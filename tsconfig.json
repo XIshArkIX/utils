@@ -3,6 +3,8 @@
     "lib": ["ES2016"],
     "target": "ES2018",
     "strict": true,
-    "outDir": "build"
+    "outDir": "build",
+    "moduleResolution": "node",
+    "module": "CommonJS"
   }
 }
